@@ -116,11 +116,11 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     borderTopWidth: 1,
     borderTopColor: '#ebebeb',
-    elevation: 2, // Ajoute une ombre
-    shadowColor: 'black', // Couleur de l'ombre
-    shadowOffset: { width: 0, height: -2 }, // Décalage de l'ombre (vers le haut)
-    shadowOpacity: 0.2, // Opacité de l'ombre
-    shadowRadius: 2, // Rayon de l'ombre
+    elevation: 2, 
+    shadowColor: 'black', 
+    shadowOffset: { width: 0, height: -2 },
+    shadowOpacity: 0.2, 
+    shadowRadius: 2, 
   },
   containerNavbar: {
     flex: 0.15,
@@ -145,7 +145,7 @@ const styles = StyleSheet.create({
     flex: 0.8,
   },
   button: {
-    width: 150, // Modifier la largeur du bouton
+    width: 150, 
     backgroundColor: 'white',
     alignItems: 'center',
     padding: 10,
